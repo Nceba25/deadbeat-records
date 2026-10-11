@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Browse the Deadbeat Records collection by sound, era, condition, and price.">
+  <title>Shop Records — Deadbeat Records</title>
+  <link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/products.js" defer></script>
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+  <header id="site-header"></header>
+  <main class="container shop-page">
+    <section class="page-intro">
+      <p class="eyebrow">A collection to get lost in</p>
+      <h1 class="serif">The record room</h1>
+      <p>Browse records by the feeling you’re after, then find your next favourite.</p>
+    </section>
+    <section class="shop-section" aria-label="Browse records">
+      <div class="shop-toolbar">
+        <div class="filter-row">
+          <div class="field compact-field">
+            <label for="filter-collection">Collection</label>
+            <select id="filter-collection"><option value="">All collections</option></select>
+          </div>
+          <div class="field compact-field">
+            <label for="filter-decade">Decade</label>
+            <select id="filter-decade">
+              <option value="">Any era</option>
+            </select>
+          </div>
+          <div class="field compact-field">
+            <label for="filter-condition">Condition</label>
+            <select id="filter-condition">
+              <option value="">Any condition</option>
+              <option>Mint</option>
+              <option>Near Mint</option>
+              <option>Very Good Plus</option>
+              <option>Good</option>
+            </select>
+          </div>
+          <div class="field price-field">
+            <label for="filter-price">Price up to <span id="price-output">R 1,200.00</span></label>
+            <input id="filter-price" type="range" min="900" max="1200" step="10" value="1200">
+          </div>
+        </div>
+        <div class="sort-row">
+          <p id="results-count" class="eyebrow" aria-live="polite"></p>
+          <div class="field compact-field sort-field">
+            <label for="sort-records">Sort by</label>
+            <select id="sort-records">
+              <option value="featured">Featured</option>
+              <option value="price-low">Price: low to high</option>
+              <option value="price-high">Price: high to low</option>
+              <option value="newest">Newest</option>
+              <option value="az">A–Z</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div id="shop-grid" class="record-grid shop-grid"></div>
+    </section>
+  </main>
+  <footer id="site-footer"></footer>
+</body>
+</html>

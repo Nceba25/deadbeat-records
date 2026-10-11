@@ -1,0 +1,52 @@
+/* Edit this array to add or update records. Keep each id unique and use a collection slug below. */
+window.COLLECTIONS = [
+  { id: 'midnight-hours', name: 'Midnight Hours', description: 'Slow, moody records for the hours after dark.' },
+  { id: 'basement-sessions', name: 'Basement Sessions', description: 'Raw, loud, gritty sounds with the edges left on.' },
+  { id: 'golden-static', name: 'Golden Static', description: 'Warm, nostalgic grooves with a little crackle.' },
+  { id: 'neon-pulse', name: 'Neo Soul', description: 'Electronic and dance records made to move.' },
+  { id: 'limited-coloured', name: 'Limited & Coloured', description: 'Special editions, coloured pressings, small runs.' },
+  { id: 'staff-picks', name: 'Staff Picks', description: 'Hand-selected records we keep coming back to.' }
+];
+
+window.RECORDS = [
+  { id: 'mh-01', artist: 'The Weeknd', title: 'After Hours', genre: 'Dark R&B', collection: 'midnight-hours', year: 2020, price: 1030, condition: 'Near Mint', pressing: '180g black vinyl · First pressing', stock: 'In stock', tags: ['dark r&b', 'late-night', 'pop'], cover: './assets/midnighthours/IMG_4394.jpg' },
+  { id: 'mh-02', artist: 'Daniel Caesar', title: 'Freudian', genre: 'R&B', collection: 'midnight-hours', year: 2017, price: 1000, condition: 'Near Mint', pressing: '180g vinyl · Quiet-room edition', stock: 'In stock', tags: ['r&b', 'soul', 'after-hours'], cover: './assets/midnighthours/IMG_4395.jpg' },
+  { id: 'mh-03', artist: 'Cleo Sol', title: 'Mother', genre: 'Soul', collection: 'midnight-hours', year: 2021, price: 1080, condition: 'Mint', pressing: '180g black vinyl · Numbered edition', stock: 'Low stock', tags: ['soul', 'moody', 'r&b'], cover: './assets/midnighthours/IMG_4396.jpg' },
+  { id: 'mh-04', artist: 'Steve Lacy', title: 'Gemini Rights', genre: 'Alternative R&B', collection: 'midnight-hours', year: 2022, price: 1110, condition: 'Mint', pressing: '180g vinyl · First pressing', stock: 'In stock', tags: ['alternative r&b', 'indie', 'night'], cover: './assets/midnighthours/IMG_4397.jpg' },
+  { id: 'mh-05', artist: 'Bryson Tiller', title: 'TRAPSOUL', genre: 'R&B', collection: 'midnight-hours', year: 2015, price: 1060, condition: 'Near Mint', pressing: 'Black vinyl · Listening-room edition', stock: 'In stock', tags: ['r&b', 'trap soul', 'late-night'], cover: './assets/midnighthours/IMG_4398.jpg' },
+
+  { id: 'bs-01', artist: 'Nirvana', title: 'In Utero', genre: 'Grunge', collection: 'basement-sessions', year: 1993, price: 950, condition: 'Very Good Plus', pressing: 'Original independent pressing', stock: 'In stock', tags: ['grunge', 'raw', 'guitar'], cover: './assets/basementsessions/IMG_4399.jpg' },
+  { id: 'bs-02', artist: 'A-Reece', title: "Today's Tragedy, Tomorrow's Memory", genre: 'Hip-Hop', collection: 'basement-sessions', year: 2021, price: 900, condition: 'Good', pressing: 'Original pressing · Lyric insert included', stock: 'In stock', tags: ['hip-hop', 'south african hip-hop', '2021'], cover: './assets/basementsessions/IMG_4400.jpg' },
+  { id: 'bs-03', artist: 'Joey Bada$$', title: '1999', genre: 'Hip-Hop', collection: 'basement-sessions', year: 2012, price: 940, condition: 'Near Mint', pressing: 'DIY edition · Black vinyl', stock: 'Low stock', tags: ['hip-hop', 'east coast hip-hop', '2012'], cover: './assets/basementsessions/IMG_4401.jpg' },
+  { id: 'bs-04', artist: 'MF DOOM', title: 'MM.. Food', genre: 'Hip-Hop', collection: 'basement-sessions', year: 2004, price: 980, condition: 'Very Good Plus', pressing: 'Hand-numbered sleeve · Original cut', stock: 'In stock', tags: ['hip-hop', 'alternative hip-hop', '2004'], cover: './assets/basementsessions/IMG_4402.jpg' },
+  { id: 'bs-05', artist: 'Griselda', title: 'WWCD', genre: 'Hip-Hop', collection: 'basement-sessions', year: 2019, price: 1020, condition: 'Near Mint', pressing: 'Gatefold sleeve · Black vinyl', stock: 'In stock', tags: ['hip-hop', 'Buffalo hip-hop', '2019'], cover: './assets/basementsessions/IMG_4403.jpg' },
+
+  { id: 'gs-01', artist: 'Marvin Gaye', title: "Let's Get It On", genre: 'Soul', collection: 'golden-static', year: 1973, price: 990, condition: 'Near Mint', pressing: 'Warm-tone remaster · Black vinyl', stock: 'In stock', tags: ['soul', 'warm', 'vocal'], cover: './assets/goldenstatic/IMG_4389.jpg' },
+  { id: 'gs-02', artist: 'George Benson', title: 'Give Me the Night', genre: 'Soul', collection: 'golden-static', year: 1980, price: 1040, condition: 'Mint', pressing: '180g vinyl · First pressing', stock: 'In stock', tags: ['soul', 'groove', 'analog'], cover: './assets/goldenstatic/IMG_4390.jpg' },
+  { id: 'gs-03', artist: 'Barbara Mason', title: "Yes, I'm Ready", genre: 'Soul', collection: 'golden-static', year: 1965, price: 970, condition: 'Very Good Plus', pressing: 'Original pressing · Light sleeve wear', stock: 'In stock', tags: ['soul', 'classic', 'crackle'], cover: './assets/goldenstatic/IMG_4391.jpg' },
+  { id: 'gs-04', artist: 'Oliver Cheatham', title: 'Saturday Night', genre: 'Funk', collection: 'golden-static', year: 1983, price: 1070, condition: 'Mint', pressing: '180g vinyl · Vintage-style sleeve', stock: 'Low stock', tags: ['funk', 'nostalgic', 'groove'], cover: './assets/goldenstatic/IMG_4392.jpg' },
+  { id: 'gs-05', artist: 'Aretha Franklin', title: 'Lady Soul', genre: 'Soul', collection: 'golden-static', year: 1968, price: 930, condition: 'Very Good Plus', pressing: 'All-analog cut · Black vinyl', stock: 'In stock', tags: ['soul', 'warm', 'vinyl-era'], cover: './assets/goldenstatic/IMG_4393.jpg' },
+
+  { id: 'np-01', artist: 'Erykah Badu', title: 'Baduizm', genre: 'Neo Soul', collection: 'neon-pulse', year: 1997, price: 1130, condition: 'Mint', pressing: '180g vinyl · Midnight edition', stock: 'In stock', tags: ['neo soul', 'r&b', 'soul'], cover: './assets/neosoul/IMG_4374.jpg' },
+  { id: 'np-02', artist: 'Kali Uchis', title: 'Red Moon in Venus', genre: 'Neo Soul', collection: 'neon-pulse', year: 2023, price: 1040, condition: 'Near Mint', pressing: '180g vinyl · First pressing', stock: 'In stock', tags: ['neo soul', 'r&b', 'pop'], cover: './assets/neosoul/IMG_4379.jpg' },
+  { id: 'np-03', artist: "D'Angelo", title: 'Voodoo', genre: 'Neo Soul', collection: 'neon-pulse', year: 2000, price: 1000, condition: 'Near Mint', pressing: '12″ club pressing · Black vinyl', stock: 'In stock', tags: ['neo soul', 'r&b', 'funk'], cover: './assets/neosoul/IMG_4381.jpg' },
+  { id: 'np-04', artist: 'Jill Scott', title: 'Beautifully Human', genre: 'Neo Soul', collection: 'neon-pulse', year: 2004, price: 1100, condition: 'Mint', pressing: 'Double LP · 180g vinyl', stock: 'Low stock', tags: ['neo soul', 'r&b', 'soul'], cover: './assets/neosoul/IMG_4382.jpg' },
+  { id: 'np-05', artist: 'Frank Ocean', title: 'Channel ORANGE', genre: 'Neo Soul', collection: 'neon-pulse', year: 2012, price: 980, condition: 'Very Good Plus', pressing: 'Extended mixes · Black vinyl', stock: 'In stock', tags: ['neo soul', 'alternative r&b', '2012'], cover: './assets/neosoul/IMG_4383.jpg' },
+
+  { id: 'lc-01', artist: '2Pac', title: 'All Eyez on Me', genre: 'Hip-Hop', collection: 'limited-coloured', year: 1996, price: 990, condition: 'Near Mint', pressing: 'Limited edition · Smoke-clear vinyl', stock: 'Low stock', tags: ['limited', 'smoke-clear', 'numbered'], cover: './assets/limitedandcoloured/IMG_4384.jpg' },
+  { id: 'lc-02', artist: 'Sade', title: 'Love Deluxe', genre: 'Soul', collection: 'limited-coloured', year: 1992, price: 930, condition: 'Very Good Plus', pressing: 'Numbered edition · Amber vinyl', stock: 'In stock', tags: ['coloured vinyl', 'amber', 'gatefold'], cover: './assets/limitedandcoloured/IMG_4385.jpg' },
+  { id: 'lc-03', artist: 'Tame Impala', title: 'Currents', genre: 'Ambient', collection: 'limited-coloured', year: 2015, price: 1160, condition: 'Mint', pressing: 'Limited to 300 · Cloudy white vinyl', stock: 'Low stock', tags: ['limited', 'white vinyl', 'numbered'], cover: './assets/limitedandcoloured/IMG_4386.jpg' },
+  { id: 'lc-04', artist: 'Radiohead', title: 'OK Computer', genre: 'Alternative', collection: 'limited-coloured', year: 1997, price: 1120, condition: 'Near Mint', pressing: 'Numbered first edition · Deep red vinyl', stock: 'In stock', tags: ['red vinyl', 'first edition', 'alternative'], cover: './assets/limitedandcoloured/IMG_4387.jpg' },
+  { id: 'lc-05', artist: 'Mary J. Blige', title: 'My Life', genre: 'R&B', collection: 'limited-coloured', year: 1994, price: 1200, condition: 'Mint', pressing: 'Double LP · Translucent blue vinyl', stock: 'In stock', tags: ['blue vinyl', 'limited', 'r&b'], cover: './assets/limitedandcoloured/IMG_4388.jpg' },
+
+  { id: 'sp-01', artist: 'Lauryn Hill', title: 'The Miseducation of Lauryn Hill', genre: 'Neo Soul', collection: 'staff-picks', year: 1998, price: 980, condition: 'Very Good Plus', pressing: 'All-analog cut · Original pressing', stock: 'In stock', tags: ['staff pick', 'neo soul', '1998'], cover: './assets/staffpicks/IMG_4371.jpg' },
+  { id: 'sp-02', artist: 'Earl Sweatshirt, Mike & Surf Gang', title: 'Pompeii // Utility', genre: 'Hip-Hop', collection: 'staff-picks', year: 2026, price: 1020, condition: 'Near Mint', pressing: '180g black vinyl · First pressing', stock: 'In stock', tags: ['staff pick', 'hip-hop', '2026'], cover: './assets/staffpicks/IMG_4372.jpg' },
+  { id: 'sp-03', artist: 'Dean Blunt', title: 'Zushi', genre: 'Alternative', collection: 'staff-picks', year: 2020, price: 1070, condition: 'Mint', pressing: '180g vinyl · Independent pressing', stock: 'In stock', tags: ['staff pick', 'alternative', '2020'], cover: './assets/staffpicks/IMG_4376.jpg' },
+  { id: 'sp-04', artist: 'Freddie Gibbs & The Alchemist', title: 'Alfredo 2', genre: 'Hip-Hop', collection: 'staff-picks', year: 2025, price: 910, condition: 'Very Good Plus', pressing: 'Original pressing · Lyric insert', stock: 'Low stock', tags: ['staff pick', 'hip-hop', '2025'], cover: './assets/staffpicks/IMG_4377.jpg' },
+  { id: 'sp-05', artist: 'Kanye West', title: 'Graduation', genre: 'Hip-Hop', collection: 'staff-picks', year: 2007, price: 1060, condition: 'Near Mint', pressing: 'Limited edition · Black vinyl', stock: 'In stock', tags: ['staff pick', 'hip-hop', '2007'], cover: './assets/staffpicks/IMG_4378.jpg' }
+];
+
+/* Keep the release year searchable alongside each record's editable tags. */
+window.RECORDS.forEach(function (record) {
+  if (!record.tags.includes(String(record.year))) record.tags.push(String(record.year));
+});
